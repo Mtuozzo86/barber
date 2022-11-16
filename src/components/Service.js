@@ -1,23 +1,24 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import haircut from "../img/haircut.jpeg";
 import "./Service.css";
-import { RiScissorsFill } from "react-icons/ri";
 
-function Service() {
+function Service({ serviceName, time, icon, photo }) {
+  console.log(photo)
   return (
-    <div className="service-section">
+    <div className="service-section position-relative">
       <Card
         className="bg-transparent"
-        style={{ width: "25rem", margin: "auto", border: 'none' }}
+        style={{ width: "18rem", margin: "auto", border: "none" }}
       >
-        <div className="icon">
-              <RiScissorsFill color={"white"} size={55} />
+        <div className="icon position-absolute top-0 start-50 translate-middle">
+          {icon}
         </div>
-        <Card.Img variant="top" src={haircut} />
+
+        <Card.Img variant="top" src={photo} />
         <Card.Body>
-          <Card.Text>
-            <h3 className="text-center">Haircut</h3>
+          <Card.Text className="text-center">
+            <h3>{serviceName}</h3>
+            <p className="fw-light">{time}</p>
           </Card.Text>
         </Card.Body>
       </Card>
