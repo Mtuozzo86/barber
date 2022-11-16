@@ -1,0 +1,10 @@
+.service-section {
+  background-color: rgba(0, 0, 0, 0.471);
+  height: 600px;
+  padding: 4rem;
+}
+
+.icon {
+border: 1px solid black;
+width: 60px;
+}

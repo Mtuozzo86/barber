@@ -1,0 +1,39 @@
+.header-container {
+  background-color: black;
+  height: 700px;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/pic2.png) no-repeat center;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0px 0px 20px 30px black inset;
+}
+
+.hero-text {
+  font-size: large;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  color: #ffd900;
+  color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+  transform: translate(-50%, -50%);
+}
+
+.scissors {
+  color: #fff;
+}
+
+.book-button {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

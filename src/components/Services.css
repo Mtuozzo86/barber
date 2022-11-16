@@ -1,0 +1,24 @@
+.services {
+    background-color: rgb(235, 235, 235);
+    /* height: 700px; */
+}
+    
+.carousel {
+    max-height: 500px;
+
+}
+
+.carousel-img {
+    padding: 10px 0px;
+    margin: auto;
+    /* max-height: 450px; */
+    height: 450px;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+
+.carousel h3{
+    color: rgb(255, 255, 255);
+}
+
