@@ -1,6 +1,6 @@
 import React from "react";
 import Service from "./Service";
-import './Services.css'
+import "./Services.css";
 
 function ListOfServices({ services }) {
   const listOfServices = services.map((service) => (
@@ -12,7 +12,14 @@ function ListOfServices({ services }) {
       photo={service.photo}
     />
   ));
-  return <div className="d-flex justify-content-evenly services">{listOfServices}</div>;
+  return (
+    <div className="services">
+      <h1 className="text-center ">SERVICES</h1>
+      <div className="d-flex flex-wrap justify-content-evenly services">
+        {listOfServices}
+      </div>
+    </div>
+  );
 }
 
 export default ListOfServices;

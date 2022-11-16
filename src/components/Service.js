@@ -8,7 +8,7 @@ function Service({ serviceName, time, icon, photo }) {
     <div className="service-section position-relative">
       <Card
         className="bg-transparent"
-        style={{ width: "18rem", margin: "auto", border: "none" }}
+        style={{ width: "18rem", margin: "auto", border: "none", marginTop: '1rem' }}
       >
         <div className="icon position-absolute top-0 start-50 translate-middle">
           {icon}

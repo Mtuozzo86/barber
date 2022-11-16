@@ -1,6 +1,11 @@
 .services{
     background-color: rgb(212, 212, 212);
     padding: 3rem;
+
+}
+
+h1{
+    letter-spacing: .5rem;
 }
     
 .carousel {
