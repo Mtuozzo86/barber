@@ -1,7 +1,7 @@
 {
   "name": "barber",
   "version": "0.1.0",
-  "homepage": "https://mtuozzo86/github.io",
+  "homepage": "https://mtuozzo86/github.io/barber",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
