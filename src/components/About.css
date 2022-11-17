@@ -1,0 +1,23 @@
+.about-section {
+  background-color: black;
+  height: 80vh;
+}
+
+.about-container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+    url(../img/table.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0px 0px 20px 30px black inset;
+}
+
+.about-first {      
+    border: 2px #ffc107 solid;
+    border-radius: 25px;
+    height:50%;
+    width: 50%;
+    margin: auto;
+}

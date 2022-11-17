@@ -1,17 +1,15 @@
 import Header from "./components/Header";
-import Services from './components/Services'
-import Service from "./components/Service";
 import { servicesOffered } from "./data";
 import ListOfServices from "./components/ListOfServices";
+import About from "./components/About";
 
 function App() {
 
   return (
     <div>
       <Header />
-      <ListOfServices services={servicesOffered}/>
-      {/* <Services /> */}
-      {/* <Service /> */}
+      <ListOfServices services={servicesOffered} />
+      <About />
     </div>
   );
 }

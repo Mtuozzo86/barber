@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 
 function Header() {
   return (
-    <header className="header-container">
-      <div className="container">
+    <header className="header-section">
+      <div className="header-container">
         <div className="hero-text">
           <h1>2zoCuts</h1>
           <h3>I am very, very good</h3>
