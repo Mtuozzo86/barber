@@ -14,10 +14,12 @@
   box-shadow: 0px 0px 20px 30px black inset;
 }
 
-.about-first {      
+.about-first { 
+       
+    color:  #ffc107;
     border: 2px #ffc107 solid;
     border-radius: 25px;
-    min-width: 30%;
+    width: 25rem;
     margin: auto;
 }
 
@@ -27,4 +29,9 @@
     height:98%;
     width: 98%;
     margin: auto;
+}
+
+.hours {
+  margin: auto;
+  width: 75%;
 }
