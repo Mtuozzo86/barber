@@ -2,18 +2,20 @@ import React from "react";
 import "./About.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Container } from "react-bootstrap";
 
 function About() {
   return (
     <div className="about-section">
-      <div className="about-container">
-        <Row className="h-100">
+      <div className="about-container d-flex flex-wrap">
+        {/* <Row className="h-100">
           <Col className="d-flex h-100 text-warning">
             <div className="d-flex flex-column about-first p-3">
               <p className="fs-5 fw-semibold">
                 400 Garden City Plaza Ste 110, Garden City, NY 11530
               </p>
               <p className="text-center">Hours</p>
+
               <Row>
                 <Col>Monday</Col>
                 <Col className="text-end">Closed</Col>
@@ -45,11 +47,9 @@ function About() {
             </div>
           </Col>
           <Col className="d-flex h-100 text-warning">
-            <div className="about-second">
-              
-            </div>
+            <div className="about-second"></div>
           </Col>
-        </Row>
+        </Row> */}
       </div>
     </div>
   );

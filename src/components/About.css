@@ -17,8 +17,7 @@
 .about-first {      
     border: 2px #ffc107 solid;
     border-radius: 25px;
-    height:50%;
-    width: 50%;
+    min-width: 30%;
     margin: auto;
 }
 
