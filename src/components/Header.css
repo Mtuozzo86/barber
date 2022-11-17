@@ -21,14 +21,9 @@
   top: 40%;
   left: 50%;
   position: absolute;
-  color: #ffd900;
   color: rgb(255, 255, 255);
   letter-spacing: 3px;
   transform: translate(-50%, -50%);
-}
-
-.scissors {
-  color: #fff;
 }
 
 .book-button {
@@ -36,4 +31,8 @@
   top: 170%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h1 {
+  letter-spacing: .5rem;
 }

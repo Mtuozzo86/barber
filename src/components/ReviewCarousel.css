@@ -1,0 +1,16 @@
+.carousel {
+  border: 2px #ffc107 solid;
+  height: 25rem;
+  width: 400px;
+  color: white;
+  margin: auto;
+}
+
+.carousel-fix {
+  visibility: hidden;
+}
+
+.carousel h3 {
+  color: rgb(255, 255, 255);
+}
+

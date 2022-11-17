@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Container } from "react-bootstrap";
+import ReviewCarousel from "./ReviewCarousel";
 
 function About() {
   return (
@@ -45,6 +45,7 @@ function About() {
               </Row>
           </div>
         </div>
+        <ReviewCarousel />
       </div>
     </div>
   );
