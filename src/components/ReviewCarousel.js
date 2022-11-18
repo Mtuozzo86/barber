@@ -1,10 +1,12 @@
 import React from "react";
 import "./ReviewCarousel.css";
 import Carousel from "react-bootstrap/Carousel";
+import {reviews} from '../data'
 
 function ReviewCarousel() {
+
   return (
-    <Carousel className="carousel">
+    <Carousel className="carousel" indicators={false}>
       <Carousel.Item>
         <img className="carousel-fix" />
 

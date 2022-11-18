@@ -52,38 +52,4 @@ function About() {
 }
 
 export default About;
-{
-  /* <p className="fs-5 fw-semibold">
-                400 Garden City Plaza Ste 110, Garden City, NY 11530
-              </p>
-              <p className="text-center">Hours</p>
 
-              <Row>
-                <Col>Monday</Col>
-                <Col className="text-end">Closed</Col>
-              </Row>
-              <Row>
-                <Col>Tuesday</Col>
-                <Col className="text-end">Closed</Col>
-              </Row>
-              <Row>
-                <Col>Wednesday</Col>
-                <Col className="text-end">9 AM - 8 PM</Col>
-              </Row>
-              <Row>
-                <Col>Thursday</Col>
-                <Col className="text-end">9 AM - 8 PM</Col>
-              </Row>
-              <Row>
-                <Col>Friday</Col>
-                <Col className="text-end">9 AM - 8 PM</Col>
-              </Row>
-              <Row>
-                <Col>Saturday</Col>
-                <Col className="text-end">9 AM - 8 PM</Col>
-              </Row>
-              <Row>
-                <Col>Sunday</Col>
-                <Col className="text-end">Closed</Col>
-              </Row> */
-}
