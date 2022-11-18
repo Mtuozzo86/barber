@@ -7,7 +7,7 @@ import ReviewCarousel from "./ReviewCarousel";
 function About() {
   return (
     <div className="about-section">
-      <div className="about-container d-flex flex-wrap">
+      <div className="about-container d-flex flex-wrap justify-content-around align-items-center">
         <div className="about-first p-2">
           <p className="fs-5 fw-semibold text-center">
             400 Garden City Plaza Ste 110 <br />

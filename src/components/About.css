@@ -1,11 +1,13 @@
 .about-section {
+  display: flex;
   background-color: black;
-  height: 80vh;
+  height: 600px;
 }
 
 .about-container {
   width: 90%;
-  height: 100%;
+  /* min-height: 100%; */
+
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)),
     url(../img/table.jpg) no-repeat center;
@@ -20,16 +22,17 @@
     border: 2px #ffc107 solid;
     border-radius: 25px;
     width: 25rem;
-    margin: auto;
+    max-height: 24rem;
+    margin: auto 0px;
 }
 
-.about-second {
+/* .about-second {
     border: 2px #ffc107 solid;
     border-radius: 25px;
     height:98%;
     width: 98%;
     margin: auto;
-}
+} */
 
 .hours {
   margin: auto;

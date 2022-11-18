@@ -1,16 +1,13 @@
 .carousel {
-  border: 2px #ffc107 solid;
-  height: 25rem;
-  width: 400px;
-  color: white;
-  margin: auto;
+  /* border: 2px solid firebrick; */
+  width: 30rem;
 }
 
 .carousel-fix {
+  display: block;
   visibility: hidden;
 }
 
-.carousel h3 {
+.carousel h5 {
   color: rgb(255, 255, 255);
 }
-
