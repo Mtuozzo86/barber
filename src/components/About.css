@@ -19,20 +19,12 @@
 .about-first { 
        
     color:  #ffc107;
-    border: 2px #ffc107 solid;
+    /* border: 2px #ffc107 solid; */
     border-radius: 25px;
     width: 25rem;
     max-height: 24rem;
     margin: auto 0px;
 }
-
-/* .about-second {
-    border: 2px #ffc107 solid;
-    border-radius: 25px;
-    height:98%;
-    width: 98%;
-    margin: auto;
-} */
 
 .hours {
   margin: auto;

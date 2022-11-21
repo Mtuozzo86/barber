@@ -26,9 +26,10 @@ function ReviewCarousel() {
 
   return (
     <Carousel
-    interval={2900}
+      variant="dark"
+    interval={1900}
       controls={false}
-      // activeIndex={1}
+      // activeIndex={5}
       indicators={false}
     >
       {customReviews}

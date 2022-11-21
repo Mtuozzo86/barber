@@ -1,5 +1,6 @@
 import React from "react";
 import Service from "./Service";
+import ReviewCarousel from "./ReviewCarousel";
 
 function ListOfServices({ services }) {
   const listOfServices = services.map((service) => (
@@ -17,6 +18,7 @@ function ListOfServices({ services }) {
       <div className="d-flex flex-wrap justify-content-evenly p-5">
         {listOfServices}
       </div>
+      <ReviewCarousel />
     </div>
   );
 }

@@ -45,7 +45,7 @@ function About() {
               </Row>
           </div>
         </div>
-        <ReviewCarousel />
+        {/* <ReviewCarousel /> */}
       </div>
     </div>
   );
