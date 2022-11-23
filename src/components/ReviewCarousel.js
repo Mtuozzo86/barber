@@ -15,10 +15,10 @@ function ReviewCarousel() {
       <Carousel.Item key={index}>
         <img className="carousel-fix" />
 
-        <Carousel.Caption className="">
-          <h5>{item.body}</h5>
-          <br/>
-          <p>{item.name}</p>
+        <Carousel.Caption>
+          <blockquote className="blockquote">{item.body}</blockquote>
+          <br />
+          <figcaption className="blockquote-footer">{item.name}</figcaption>
         </Carousel.Caption>
       </Carousel.Item>
     );
@@ -27,7 +27,7 @@ function ReviewCarousel() {
   return (
     <Carousel
       variant="dark"
-    interval={1900}
+      // interval={3000}
       controls={false}
       // activeIndex={5}
       indicators={false}
