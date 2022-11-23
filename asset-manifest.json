@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/barber/static/css/main.040feac7.css",
-    "main.js": "/barber/static/js/main.a17fac8d.js",
+    "main.css": "/barber/static/css/main.69e03707.css",
+    "main.js": "/barber/static/js/main.893f53c1.js",
     "static/media/beard.jpg": "/barber/static/media/beard.bff4738e99bede9d9d75.jpg",
     "static/media/pic2.png": "/barber/static/media/pic2.c97dbb9be20593aaa02e.png",
     "static/media/haircutbeard.jpg": "/barber/static/media/haircutbeard.c9d6f1230bc5ba6d2358.jpg",
     "static/media/haircut.jpeg": "/barber/static/media/haircut.9a2d1736928345576d9d.jpeg",
     "static/media/table.jpg": "/barber/static/media/table.39a4bea44ccab07d10c8.jpg",
     "index.html": "/barber/index.html",
-    "main.040feac7.css.map": "/barber/static/css/main.040feac7.css.map",
-    "main.a17fac8d.js.map": "/barber/static/js/main.a17fac8d.js.map"
+    "main.69e03707.css.map": "/barber/static/css/main.69e03707.css.map",
+    "main.893f53c1.js.map": "/barber/static/js/main.893f53c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.040feac7.css",
-    "static/js/main.a17fac8d.js"
+    "static/css/main.69e03707.css",
+    "static/js/main.893f53c1.js"
   ]
 }
