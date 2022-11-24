@@ -3,10 +3,12 @@ import "animate.css";
 import "./Header.css";
 import { GiRazor } from "react-icons/gi";
 import Button from "react-bootstrap/Button";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
     <header className="header-section">
+      <Navbar />
       <div className="header-container">
         <div className="hero-text">
           <div className="animate__animated animate__fadeInDown">
